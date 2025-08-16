@@ -64,8 +64,6 @@ Editing `config.yml` will change the variables of your website. To edit `config.
 
 Each item in the `config.yml` comes with a little description. Change the values to your liking, scroll down, and click "Commit Changes". Your website will automatically update in a matter of minutes.
 
-![Commit](assets/images/rm8.png "Commit")
-
 ### 5. Add information about the attorneys in your firm
 
 Once you have configured the basics of your website, you can modify the information about the attorneys in your firm. To do so, go to your repository and click on the `_data` folder. Then click `attorneys.yml` and edit the file by clicking the edit button (the pen icon).
