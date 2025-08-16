@@ -1,0 +1,75 @@
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4 bg-light">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left py-4">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">{{ site.title | escape }}</h5>
+        <p class="">{{- site.description | escape -}}</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Explore</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="/attorneys" class="text-info">Attorneys</a>
+          </li>
+          <li>
+            <a href="/services" class="text-info">Services</a>
+          </li>
+          <li>
+            <a href="/about" class="text-info">About</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Get in touch</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="/contact" class="text-info">Contact Us</a>
+          </li>
+          <li>
+            <p class="">{{site.address_1}}<br>{{site.address_2}}</p>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <hr>
+  <div class="container footer-copyright text-secondary py-4">© {{ 'now' | date: "%Y" }}
+ Copyright: {{site.title}}. {{site.disclaimer}}
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
