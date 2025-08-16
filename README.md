@@ -72,8 +72,6 @@ Update the `name`, `bio`, `email`, and `phone` fields with the correct info for 
 
 In order to show pictures for the attorneys in your firm, set the `picture` value to the name of your picture, and upload the picture to the `assets/images folder. You can upload pictures by clicking the "Upload Files" button in the `assets/images folder.
 
-![Upload](assets/images/rm9.png "Upload")
-
 ### 6. Add services your firm offers
 
 Editing the services your website offers follows a similar process. Go to your repository and click on the `_data` folder. Then click `services.yml` and edit the file by clicking the edit button (the pen icon). You can add as many services as you like. The end result should look like this:
